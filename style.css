@@ -332,3 +332,30 @@ nav ul li {
     font-size: 22px;
     font-weight: 700;
 }
+.bottom{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    bottom:1;
+    background-color: #222f3e;
+    width: 100%;
+    color: white;
+    height: 8%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottom h4{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.bottom h5{
+    margin-top: 1px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+.bottom h5 span{
+    color: yellow;
+}
